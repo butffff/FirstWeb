@@ -3,7 +3,7 @@ title: Projects
 description: Projects
 translationKey: "projects"
 date: 2026-03-08T14:00:00+08:00
-lastmod: 2026-03-09T12:00:00+08:00
+lastmod: 2026-04-16T19:00:00+08:00
 ---
 
 ### 项目列表
@@ -14,6 +14,12 @@ Project repository: **[Personal_Web](https://github.com/CrimsonSeraph/Personal_W
 
 **CrimsonSeraph's Personal Website** is a static blog site built with [Hugo](https://gohugo.io/), using the [D-Sketon/hugo-theme-reimu](https://github.com/D-Sketon/hugo-theme-reimu) theme. It serves as a platform to document personal life, learning experiences, and project showcases. The site integrates [Waline](https://waline.js.org/) for comments, [Algolia](https://www.algolia.com/) for full-text search, and a self-hosted [moe-counter-cf](https://github.com/SunDoge/moe-counter-cf) visitor counter. It is automatically deployed via Cloudflare Pages and accessible at [https://personal-web.crimsonseraph.top/](https://personal-web.crimsonseraph.top/).  
 The code is open-sourced under the MIT License, while the original Logo (`/favicon.ico`) retains all rights and may not be used without explicit permission.
+
+* **DG-LAB-Client**
+
+Project Repository: **[DG-LAB-Client](https://github.com/CrimsonSeraph/DG-LAB-Client)** | Project Article: None
+
+**DG-LAB-Client** is a Qt-based (C++20) desktop client designed to communicate with DG-Lab device services via WebSocket. It launches an independent Python subprocess (`Bridge.py`) to manage the WebSocket connection to the DG-Lab server. The client features multi-level configuration management (`main/system/user`), modular logging, a rule engine (supporting `{}` placeholders and expression evaluation), a sampled waveform widget, and light/dark theme switching. The project uses CMake for cross-platform builds (Windows, Linux, macOS) and GitHub Actions for automated packaging (NSIS, DMG, DEB, etc.). It is suitable for scenarios where external programs (games, sensors, etc.) feed data into the client, which then computes and sends intensity adjustments or waveform commands to the DG-Lab service.
 
 * **MoeCounter-Worker_D1**
 

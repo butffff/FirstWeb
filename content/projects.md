@@ -3,7 +3,7 @@ title: 项目
 description: 项目
 translationKey: "projects"
 date: 2026-03-08T14:00:00+08:00
-lastmod: 2026-03-09T12:00:00+08:00
+lastmod: 2026-04-16T19:00:00+08:00
 ---
 
 ### 项目列表
@@ -14,6 +14,12 @@ lastmod: 2026-03-09T12:00:00+08:00
 
 **CrimsonSeraph 的个人网站** 是一个基于 [Hugo](https://gohugo.io/) 构建的静态博客站点，采用 [D-Sketon/hugo-theme-reimu](https://github.com/D-Sketon/hugo-theme-reimu) 主题，用于记录个人生活、学习与项目展示。网站已集成 [Waline](https://waline.js.org/) 评论系统、[Algolia](https://www.algolia.com/) 全文搜索和自部署的 [moe-counter-cf](https://github.com/SunDoge/moe-counter-cf) 访问计数器，通过 Cloudflare Pages 自动部署，可通过 [https://personal-web.crimsonseraph.top/](https://personal-web.crimsonseraph.top/) 访问。  
 代码部分采用 MIT 许可证开放，但原创 Logo（`/favicon.ico`）保留所有权利，未经许可不得使用。
+
+* **DG-LAB-Client**
+
+项目仓库: **[DG-LAB-Client](https://github.com/CrimsonSeraph/DG-LAB-Client)** | 项目文章: 暂无
+
+DG-LAB-Client 是一个基于 Qt（C++20）的桌面客户端，用于与 DG-Lab 设备服务进行 WebSocket 通信。它通过启动独立的 Python 子进程（Bridge.py）管理与 DG-Lab 服务器的连接，实现了多级配置管理（main/system/user）、模块化日志、规则引擎（支持占位符 {} 和表达式求值）、波形采样控件以及亮/暗主题切换等功能。项目采用 CMake 构建，支持 Windows、Linux、macOS 跨平台，并通过 GitHub Actions 自动打包（NSIS、DMG、DEB 等）。适用于从外部程序（游戏、传感器等）获取数据，经过规则计算后向 DG-Lab 服务发送强度调节、波形输出等指令的场景。
 
 * **MoeCounter-Worker_D1**
 
