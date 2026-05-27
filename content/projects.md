@@ -3,7 +3,7 @@ title: 项目
 description: 项目
 translationKey: "projects"
 date: 2026-03-08T14:00:00+08:00
-lastmod: 2026-04-16T19:00:00+08:00
+lastmod: 2026-05-28T03:00:00+08:00
 ---
 
 ### 项目列表
@@ -12,8 +12,14 @@ lastmod: 2026-04-16T19:00:00+08:00
 
 项目仓库: **[Personal_Web](https://github.com/CrimsonSeraph/Personal_Web)** | 项目文章: **[Personal-Web 是如何搭建的](post/personal-web)**
 
-**CrimsonSeraph 的个人网站** 是一个基于 [Hugo](https://gohugo.io/) 构建的静态博客站点，采用 [D-Sketon/hugo-theme-reimu](https://github.com/D-Sketon/hugo-theme-reimu) 主题，用于记录个人生活、学习与项目展示。网站已集成 [Waline](https://waline.js.org/) 评论系统、[Algolia](https://www.algolia.com/) 全文搜索和自部署的 [moe-counter-cf](https://github.com/SunDoge/moe-counter-cf) 访问计数器，通过 Cloudflare Pages 自动部署，可通过 [https://personal-web.crimsonseraph.top/](https://personal-web.crimsonseraph.top/) 访问。  
+**CrimsonSeraph 的个人网站** 是一个基于 [Hugo](https://gohugo.io/) 构建的静态博客站点，采用 [D-Sketon/hugo-theme-reimu](https://github.com/D-Sketon/hugo-theme-reimu) 主题，用于记录个人生活、学习与项目展示。网站已集成 [Waline](https://waline.js.org/) 评论系统、[Algolia](https://www.algolia.com/) 全文搜索和自部署的 [moe-counter-cf](https://github.com/SunDoge/moe-counter-cf) 访问计数器，通过 Cloudflare Pages 自动部署，可通过 [https://personal-web.crimsonseraph.top/](https://personal-web.crimsonseraph.top/) 访问。
 代码部分采用 MIT 许可证开放，但原创 Logo（`/favicon.ico`）保留所有权利，未经许可不得使用。
+
+* **WebUtils**
+
+项目仓库: **[WebUtils](https://github.com/CrimsonSeraph/WebUtils)** | 项目文章: **[WebUtils 前端工具集介绍](post/web-utils)**
+
+**WebUtils** 是一个高质量、可复用的前端代码片段合集，包含动态文本特效引擎（单色/多色/渐变、抖动、乱码）以及后续更多组件。所有模块均为纯原生 HTML/CSS/JS，零依赖，通过 `data-*` 属性灵活配置，遵循 MIT 协议开源。适合快速为个人或商业项目添加精致的界面交互动效。
 
 * **DG-LAB-Client**
 

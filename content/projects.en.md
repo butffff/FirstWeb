@@ -3,7 +3,7 @@ title: Projects
 description: Projects
 translationKey: "projects"
 date: 2026-03-08T14:00:00+08:00
-lastmod: 2026-04-16T19:00:00+08:00
+lastmod: 2026-05-28T03:00:00+08:00
 ---
 
 ### 项目列表
@@ -14,6 +14,12 @@ Project repository: **[Personal_Web](https://github.com/CrimsonSeraph/Personal_W
 
 **CrimsonSeraph's Personal Website** is a static blog site built with [Hugo](https://gohugo.io/), using the [D-Sketon/hugo-theme-reimu](https://github.com/D-Sketon/hugo-theme-reimu) theme. It serves as a platform to document personal life, learning experiences, and project showcases. The site integrates [Waline](https://waline.js.org/) for comments, [Algolia](https://www.algolia.com/) for full-text search, and a self-hosted [moe-counter-cf](https://github.com/SunDoge/moe-counter-cf) visitor counter. It is automatically deployed via Cloudflare Pages and accessible at [https://personal-web.crimsonseraph.top/](https://personal-web.crimsonseraph.top/).  
 The code is open-sourced under the MIT License, while the original Logo (`/favicon.ico`) retains all rights and may not be used without explicit permission.
+
+* **WebUtils**
+
+Project repository: **[WebUtils](https://github.com/CrimsonSeraph/WebUtils)** | Project article: **[Introduction to WebUtils Frontend Toolkit](post/web-utils)**
+
+**WebUtils** is a collection of high-quality, reusable front-end code snippets, including a dynamic text effects engine (mono/multi-color, gradient, shake, obfuscation) and more to come. All modules are pure HTML/CSS/JS with zero dependencies, configurable via `data-*` attributes, and released under the MIT License. It is ideal for quickly adding polished UI interactions to personal or commercial projects.
 
 * **DG-LAB-Client**
 
