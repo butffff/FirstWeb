@@ -5,8 +5,8 @@ tags: ["Projects","WebUtils","Frontend"]
 cover: /images/covers/post/webutils/cover.png
 description: WebUtils 是一个自用的高质量前端代码合集，包含动态文本特效引擎等模块，纯原生实现，零依赖，配置灵活，MIT 开源。
 banner: /images/covers/post/webutils/cover.png
-date: 2026-05-28T03:00:00+08:00
-lastmod: 2026-05-28T03:00:00+08:00
+date: 2026-09-02T03:00:00+08:00
+lastmod: 2026-09-02T03:00:00+08:00
 ---
 
 ## 仓库简介
