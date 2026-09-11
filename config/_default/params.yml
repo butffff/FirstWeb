@@ -29,9 +29,9 @@ monthFormat: "2006-01"
 dateFormat: "2006-01-02"
 timeFormat: "2006-01-02 15:04:05"
 
-author: CrimsonSeraph
-email: LTYY.LeoYu@gmail.com
-description: "✟升天✟"
+author: 守
+email: 2075118079@qq.com
+description: 人类
 # subtitle: "少女祈祷中..."
 subtitle: 
   typing:
@@ -50,7 +50,7 @@ subtitle:
     showCursor: true            # 是否显示闪烁的字符
     cursorChar: "|"             # 字符
     smartBackspace: false       # 智能退格，只删除不同的部分
-  text: "✟升天✟"                # 当 typing.enable = false 时使用
+  text: "此身无我自无穷"                # 当 typing.enable = false 时使用
 
 banner: "images/banner.webp"
 # You can also write it in the form of the following url
@@ -131,10 +131,10 @@ sidebar:
     show_common: true # whether to show common sidebar, ignored on mobile devices
 
 social:
-  email: LTYY.LeoYu@gmail.com
-  github: https://github.com/CrimsonSeraph
+  email: mailto:2075118079@qq.com
+  github: https://github.com/butffff
   # google: https://plus.google.com/yourname
-  twitter: https://x.com/CrimSeraph_QwQ
+  # twitter: https://x.com/CrimSeraph_QwQ
   # facebook: https://www.facebook.com/yourname
   # instagram: https://www.instagram.com/yourname
   # linkedin: https://www.linkedin.com/in/yourname
@@ -144,7 +144,7 @@ social:
   # flickr: https://www.flickr.com/photos/yourname
   # dribbble: https://dribbble.com/yourname
   # behance: https://www.behance.net/yourname
-  bilibili: https://space.bilibili.com/1741002917?spm_id_from=333.1007.0.0
+  # bilibili: https://space.bilibili.com/1741002917?spm_id_from=333.1007.0.0
   # weibo: https://weibo.com/yourname
   # zhihu: https://www.zhihu.com/people/yourname
   # reddit: https://www.reddit.com/user/yourname
@@ -155,7 +155,7 @@ social:
   # keybase: https://keybase.io/yourname
   # telegram: https://t.me/yourname
   # discord: https://discordapp.com/users/yourname
-  steam: https://steamcommunity.com/id/CrimsonSeraph/
+  steam: https://steamcommunity.com/profiles/76561199876461172
 
 widgets:
   - category
@@ -215,7 +215,7 @@ layout:
 triangle_badge:
   enable: true
   icon: github # same as the icon in the social config
-  link: https://github.com/CrimsonSeraph
+  link: https://github.com/butffff
 
 anchor_icon: f08b # default use '#' icon, you can use a hexadecimal representation of fontawesome or icon_font, like 'f0c1', you can also use false to hide anchor icon
 
@@ -296,17 +296,17 @@ code_block:
 # Clipboard configuration
 clipboard:
   success: 
-    en: Copy successfully (*^▽^*)
-    zh-CN: 复制成功 (*^▽^*)
-    zh-TW: 複製成功 (*^▽^*)
-    ja: コピー成功 (*^▽^*)
-    pt-BR: Copiado com sucesso (*^▽^*)
+    en: Copy successfully ovo
+    zh-CN: 复制成功 ovo
+    zh-TW: 複製成功 ovo
+    ja: コピー成功 ovo
+    pt-BR: Copiado com sucesso ovo
   fail: 
-    en: Copy failed (ﾟ⊿ﾟ)ﾂ
-    zh-CN: 复制失败 (ﾟ⊿ﾟ)ﾂ
-    zh-TW: 複製失敗 (ﾟ⊿ﾟ)ﾂ
-    ja: コピー失敗 (ﾟ⊿ﾟ)ﾂ
-    pt-BR: Falha ao copiar (ﾟ⊿ﾟ)ﾂ
+    en: Copy failed qwq
+    zh-CN: 复制失败 qwq
+    zh-TW: 複製失敗 qwq
+    ja: コピー失敗 qwq
+    pt-BR: Falha ao copiar qwq
   copyright:
     enable: false
     count: 50 # The number of characters when the copyright is displayed
@@ -355,7 +355,7 @@ comment:
   # comment system title
   title:
     en: Leave a comment
-    zh-CN: 说些什么吧！
+    zh-CN: 说些什么?
     zh-TW: 說些什麼吧！
     ja: コメントを残す
     pt-BR: Deixe um comentário
@@ -465,7 +465,7 @@ algolia_search:
 preloader:
   enable: true
   text: 
-    zh-CN: ✟升天✟
+    zh-CN: loading...
     zh-TW: ✟升天✟
     en: Loading...
     ja: ✟昇天✟
@@ -721,16 +721,16 @@ material_theme:
 
 internal_theme:
   light:
-      --red-0: 'rgba(0, 128, 255, 1)'
-      --red-1: 'rgba(82, 169, 255, 1)'
-      --red-2: 'rgba(124, 190, 255, 1)'
-      --red-3: 'rgba(175, 215, 255, 1)'
-      --red-4: 'rgba(208, 232, 255, 1)'
-      --red-5: 'rgba(236, 246, 255, 1)'
-      --red-5-5: 'rgba(243, 249, 255, 1)'
-      --red-6: 'rgba(247, 251, 255, 1)'
-      --color-red-6-shadow: 'rgba(78, 166, 255, 0.6)'
-      --color-red-3-shadow: 'rgba(78, 166, 255, 0.3)'
+      --red-0: 'rgba(255, 179, 0, 1)'
+      --red-1: 'rgba(255, 196, 38, 1)'
+      --red-2: 'rgba(255, 213, 79, 1)'
+      --red-3: 'rgba(255, 224, 130, 1)'
+      --red-4: 'rgba(255, 236, 179, 1)'
+      --red-5: 'rgba(255, 248, 225, 1)'
+      --red-5-5: 'rgba(255, 253, 231, 1)'
+      --red-6: 'rgba(255, 255, 240, 1)'
+      --color-red-6-shadow: 'rgba(255, 179, 0, 0.6)'
+      --color-red-3-shadow: 'rgba(255, 179, 0, 0.3)'
 
       --highlight-nav: 'rgba(245, 245, 245, 1)'
       --highlight-scrollbar: 'rgba(214, 214, 214, 1)'
@@ -751,10 +751,10 @@ internal_theme:
       --highlight-addition-bg: 'rgba(240, 255, 244, 1)'
 
   dark:
-      --red-4: 'rgba(208, 232, 255, 0.5)'
-      --red-5: 'rgba(228, 241, 255, 0.15)'
-      --red-5-5: 'rgba(236, 246, 255, 0.05)'
-      --red-6: 'rgba(243, 249, 255, 0.2)'
+      --red-4: 'rgba(255, 224, 130, 0.5)'
+      --red-5: 'rgba(255, 236, 179, 0.15)'
+      --red-5-5: 'rgba(255, 248, 225, 0.05)'
+      --red-6: 'rgba(255, 255, 240, 0.2)'
 
       --highlight-nav: 'rgba(34, 40, 48, 1)'
       --highlight-scrollbar: 'rgba(69, 77, 89, 1)'
